@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&family=Public+Sans:ital,wght@0,300;0,400;0,600;0,700;1,700&display=swap");
+
+:root {
+  /* Colors */
+  --color-cyan: #5fb4a2;
+  --color-blue: #4361ee;
+  --color-red: #f43030;
+  --color-dark-blue: #203a4c;
+  --color-grayish-dark-blue: #33323d;
+  --color-very-light-gray: #fafafa;
+  --color-light-gray: #eaeaeb;
+  --color-white: #ffffff;
+
+  --color-border-gray: #dcdcde;
+  --color-form-input-bg: #e5e5e6;
+  --color-form-input-place-holder: #9d9da3;
+
+  /* Typography */
+  --font-family-sans: "Public Sans", sans-serif;
+  --font-family-serif: "Ibarra Real Nova", serif;
+
+  /* Font Weights */
+  --weight-light: 300;
+  --weight-regular: 400;
+  --weight-semiBold: 600;
+  --weight-bold: 700;
+
+  /* Design elements */
+  --transition: 300ms ease;
+}
+
+html.dark {
+  --color-grayish-dark-blue: #fafafa;
+  --color-very-light-gray: #33323d;
+  --color-dark-blue: #eaeaeb;
+  --color-form-input-bg: #33323d;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family-sans);
+  font-size: 1.6rem;
+  color: var(--color-grayish-dark-blue);
+  background-color: var(--color-very-light-gray);
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.hashlink {
+  border: 2px solid var(--color-dark-blue);
+  color: var(--color-very-light-gray);
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  background: var(--color-dark-blue);
+  letter-spacing: 2px;
+  font-weight: var(--weight-bold);
+  margin: 0 1rem 4rem 0;
+  padding: 1.5rem 0px;
+  width: 16rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 650px) {
+  .meeting,
+  .msg {
+    margin: 0 auto;
+  }
+}
