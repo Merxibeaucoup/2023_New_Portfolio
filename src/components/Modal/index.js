@@ -38,7 +38,7 @@ const Modal = ({ closeModal }) => {
           animate={{ opacity: 1 }}
           transition={{ delay: 6.5 }}
         >
-          <DescriptionText>Twoja wiadomość została wysłana!</DescriptionText>
+          <DescriptionText>Your message has been sent!</DescriptionText>
         </motion.div>
         <LinkR onClick={closeModal} to="/">
           Home

@@ -107,10 +107,7 @@ const ContactForm = () => {
               <div className="msg" style={{ maxWidth: 300 }}></div>
             </ContactFormColLeft>
             <ContactFormColRight>
-              <ContactFormEl
-                action="mailto:edgarbriandt@gmail.com"
-                onSubmit={handleSubmit}
-              >
+              <ContactFormEl onSubmit={handleSubmit}>
                 <ContactFormRow>
                   <ContactFormLabel htmlFor="firstName">Name</ContactFormLabel>
                   <ContactFormTextInput
