@@ -1,28 +1,20 @@
-import Photosnap1 from "./images/portfolio/desktop/image-portfolio-photosnap.jpg";
-
-import Fylo2 from "./images/portfolio/tablet/image-portfolio-fylo.jpg";
-
-import Photosnap2 from "./images/portfolio/tablet/image-portfolio-photosnap.jpg";
-
-import Fylo3 from "./images/portfolio/mobile/image-portfolio-fylo.jpg";
-
-import Photosnap3 from "./images/portfolio/mobile/image-portfolio-photosnap.jpg";
-
-import Fylo4 from "./images/project/desktop/image-fylo-hero.jpg";
-import Fylo7 from "./images/project/tablet/image-fylo-hero.jpg";
 import Fylo1 from "./images/portfolio/desktop/image-portfolio-fylo.jpg";
+import Fylo2 from "./images/portfolio/tablet/image-portfolio-fylo.jpg";
+import Fylo3 from "./images/portfolio/mobile/image-portfolio-fylo.jpg";
+import Fylo4 from "./images/project/desktop/image-fylo-hero.jpg";
+import Fylo5 from "./images/project/desktop/image-fylo-preview-1.jpg";
+import Fylo6 from "./images/project/desktop/image-fylo-preview-2.jpg";
+import Fylo7 from "./images/project/tablet/image-fylo-hero.jpg";
 import Fylo8 from "./images/project/mobile/image-fylo-hero.jpg";
 
+import Photosnap1 from "./images/portfolio/desktop/image-portfolio-photosnap.jpg";
+import Photosnap2 from "./images/portfolio/tablet/image-portfolio-photosnap.jpg";
+import Photosnap3 from "./images/portfolio/mobile/image-portfolio-photosnap.jpg";
 import Photosnap4 from "./images/project/desktop/image-photosnap-hero.jpg";
+import Photosnap5 from "./images/project/desktop/image-photosnap-preview-1.jpg";
+import Photosnap6 from "./images/project/desktop/image-photosnap-preview-2.jpg";
 import Photosnap7 from "./images/project/tablet/image-photosnap-hero.jpg";
 import Photosnap8 from "./images/project/mobile/image-photosnap-hero.jpg";
-
-import Fylo5 from "./images/project/desktop/image-fylo-preview-1.jpg";
-
-import Photosnap5 from "./images/project/desktop/image-photosnap-preview-1.jpg";
-
-import Photosnap6 from "./images/project/desktop/image-photosnap-preview-2.jpg";
-import Fylo6 from "./images/project/desktop/image-fylo-preview-2.jpg";
 
 export const dataProjects = [
   {
