@@ -159,7 +159,7 @@ const ProjectDetails = () => {
           </ProjectDetailsColLeft>
           <ProjectDetailsColRight>
             <ProjectDetailsIntroText style={{ marginBottom: "4rem" }}>
-              Opis
+              Description
             </ProjectDetailsIntroText>
             <DescriptionText>{dataProject.descriptionLong}</DescriptionText>
             <ButtonTransparent
@@ -168,7 +168,7 @@ const ProjectDetails = () => {
               href={dataProject.siteUrl}
               style={{ marginBottom: "4rem" }}
             >
-              Visit
+              Visit live site
             </ButtonTransparent>
             <ProjectDetailsIntroText style={{ marginBottom: "4rem" }}>
               Preview

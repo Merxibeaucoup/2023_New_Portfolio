@@ -104,7 +104,7 @@ const Projects = ({
                           }}
                           $darkBg
                         >
-                          Więcej
+                          Learn More
                         </LinkR>
                         <DescriptionText style={{ marginBottom: "1rem" }}>
                           {project.languages.map((lang, i, arr) => {
@@ -154,7 +154,7 @@ const Projects = ({
                             textAlign: "center",
                           }}
                         >
-                          Odwiedź
+                          visit live site
                         </ButtonTransparent>
                       </ProjectsColRight>
                     </ProjectsCols>
@@ -195,7 +195,7 @@ const Projects = ({
                             }}
                             $darkBg
                           >
-                            Więcej
+                            Learn More
                           </LinkR>
                           <DescriptionText style={{ marginBottom: "1rem" }}>
                             {project.languages.map((lang, i, arr) => {
@@ -230,7 +230,7 @@ const Projects = ({
                               textAlign: "center",
                             }}
                           >
-                            Więcej
+                            Learn More
                           </LinkR>
                           <ButtonTransparent
                             as="a"
@@ -256,7 +256,7 @@ const Projects = ({
                               textAlign: "center",
                             }}
                           >
-                            Odwiedź
+                            visit live site
                           </ButtonTransparent>
                         </ProjectsColRight>
                       </ProjectsCols>
