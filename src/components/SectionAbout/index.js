@@ -11,7 +11,7 @@ import {
 } from "./SectionAboutElements";
 
 import { ImageEl } from "../Image/ImageElement";
-import PersonPhoto from "../../images/placeholder.jpg";
+import PersonPhoto from "../../images/placeholder2.jpg";
 
 const About = ({ aboutText }) => {
   return (
