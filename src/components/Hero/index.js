@@ -1,6 +1,6 @@
 import React from "react";
 import HeroImgDesktop from "../../images/homepage/desktop/image-homepage-hero.jpg";
-import HeroImgTablet from "../../images/homepage/tablet/image-homepage-hero.jpg";
+import HeroImgTablet from "../../images/homepage/desktop/image-homepage-hero.jpg";
 import HeroImgMobile from "../../images/homepage/mobile/image-homepage-hero.jpg";
 
 import {
