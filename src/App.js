@@ -7,9 +7,9 @@ import Project from "./pages/Project";
 import NotFound from "./components/NotFound";
 import Contact from "./pages/Contact";
 import { AnimatePresence } from "framer-motion";
-import ScrollToTopBtn from "./components/ScrollToTopBtn"; 
+import ScrollToTopBtn from "./components/ScrollToTopBtn";
 
-export const ModeContext = createContext(null)
+export const ModeContext = createContext(null);
 
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,7 +38,7 @@ const App = () => {
   };
 
   return (
-    <ModeContext.Provider value={{mode}}>
+    <ModeContext.Provider value={{ mode }}>
       <Navbar
         scrolledNav={scrolledNav}
         changeNav={changeNav}
@@ -62,6 +62,13 @@ const App = () => {
           <Route path="/contact" exact>
             <Contact />
           </Route>
+          <Route
+            path="/resume"
+            component={() => {
+              window.location.href = "https://google.com";
+              return null;
+            }}
+          />
           <Route path="*">
             <NotFound />
           </Route>

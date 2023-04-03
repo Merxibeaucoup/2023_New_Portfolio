@@ -40,7 +40,7 @@ const NotFound = () => {
                 opacity: 0,
               }}
             >
-              <NotFoundHeading>Taka strona nie istnieje</NotFoundHeading>
+              <NotFoundHeading>This page does not exist</NotFoundHeading>
               <LinkR to="/">Start</LinkR>
             </motion.div>
           </NotFoundContent>

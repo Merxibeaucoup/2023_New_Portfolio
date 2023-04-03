@@ -116,6 +116,16 @@ const Navbar = ({
                 Contact
               </NavbarNavLinkR>
             </NavbarNavItem>
+            <NavbarNavItem>
+              <NavbarNavLinkR
+                $scrolledNav={scrolledNav}
+                to="/resume"
+                $isOpen={isOpen}
+                onClick={closeMenu}
+              >
+                Resume
+              </NavbarNavLinkR>
+            </NavbarNavItem>
           </NavbarNavItems>
         </NavbarInnerWrapper>
       </WrapperEl>
