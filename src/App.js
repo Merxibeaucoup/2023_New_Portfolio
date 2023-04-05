@@ -65,7 +65,8 @@ const App = () => {
           <Route
             path="/resume"
             component={() => {
-              window.location.href = "https://google.com";
+              window.location.href =
+                "https://drive.google.com/file/d/101Dlw1sFG-AIvc-JcRKnf-qx3oC153Un/view?usp=share_link";
               return null;
             }}
           />

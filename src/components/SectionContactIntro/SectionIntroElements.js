@@ -44,6 +44,7 @@ export const ContactIntroSocialItems = styled.ul`
   align-items: center;
   list-style: none;
   transform: translateX(-10px);
+  padding: 2px 2px;
 
   @media screen and (max-width: 650px) {
     flex-direction: ${(props) => (props.siteNav ? "column" : "")};

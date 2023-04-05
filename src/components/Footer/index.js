@@ -60,7 +60,10 @@ const Footer = () => {
                   </FooterNavSocialLink>
                 </FooterNavItem>
                 <FooterNavItem>
-                  <FooterNavSocialLink href="#" target="_blank">
+                  <FooterNavSocialLink
+                    href="https://www.linkedin.com/in/edgar-briandt-38046522a"
+                    target="_blank"
+                  >
                     <ImageEl src={LinkedInDark} />
                   </FooterNavSocialLink>
                 </FooterNavItem>
@@ -68,12 +71,18 @@ const Footer = () => {
             ) : (
               <>
                 <FooterNavItem>
-                  <FooterNavSocialLink href="#" target="_blank">
+                  <FooterNavSocialLink
+                    href="https://github.com/Merxibeaucoup"
+                    target="_blank"
+                  >
                     <ImageEl src={GitHub} />
                   </FooterNavSocialLink>
                 </FooterNavItem>
                 <FooterNavItem>
-                  <FooterNavSocialLink href="#" target="_blank">
+                  <FooterNavSocialLink
+                    href="https://www.linkedin.com/in/edgar-briandt-38046522a"
+                    target="_blank"
+                  >
                     <ImageEl src={LinkedIn} />
                   </FooterNavSocialLink>
                 </FooterNavItem>

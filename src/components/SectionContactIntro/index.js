@@ -33,6 +33,19 @@ const ContactIntro = ({ contactData }) => {
     };
   }, []);
 
+  const tech = [
+    "Java",
+    "Spring(Boot, Cloud, Security)",
+    "JavaScript",
+    "React",
+    "Git",
+    "SQL(postgreSQL)",
+    "HTML5",
+    "CSS",
+    "SASS",
+    "Figma",
+  ];
+
   const context = useContext(ModeContext);
 
   return (
@@ -45,6 +58,14 @@ const ContactIntro = ({ contactData }) => {
           </ContactIntroColLeft>
           <ContactIntroColRight>
             <DescriptionText>{contactData.getInTouchText}</DescriptionText>
+            <HeroHeading as="h2">TechStack</HeroHeading>
+            <div style={{ marginBottom: "5px" }}>
+              {tech.map((item) => (
+                <ContactIntroSocialItems>
+                  <li>{item}</li>
+                </ContactIntroSocialItems>
+              ))}
+            </div>
             <ContactIntroSocialItems>
               {context.mode === "light" ? (
                 <>
@@ -57,7 +78,10 @@ const ContactIntro = ({ contactData }) => {
                     </ContactIntroSocialLink>
                   </ContactIntroSocialItem>
                   <ContactIntroSocialItem>
-                    <ContactIntroSocialLink href="#" target="_blank">
+                    <ContactIntroSocialLink
+                      href="https://www.linkedin.com/in/edgar-briandt-38046522a"
+                      target="_blank"
+                    >
                       <ImageEl src={LinkedInDark} />
                     </ContactIntroSocialLink>
                   </ContactIntroSocialItem>
@@ -73,7 +97,10 @@ const ContactIntro = ({ contactData }) => {
                     </ContactIntroSocialLink>
                   </ContactIntroSocialItem>
                   <ContactIntroSocialItem>
-                    <ContactIntroSocialLink href="#" target="_blank">
+                    <ContactIntroSocialLink
+                      href="https://www.linkedin.com/in/edgar-briandt-38046522a"
+                      target="_blank"
+                    >
                       <ImageEl src={LinkedIn} />
                     </ContactIntroSocialLink>
                   </ContactIntroSocialItem>

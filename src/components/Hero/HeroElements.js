@@ -70,7 +70,7 @@ export const HeroHeadingWrapper = styled.div`
 export const HeroHeading = styled.h1`
   font-family: "Ibarra Real Nova", serif;
   font-size: 3.6rem;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 
   @media screen and (max-width: 768px) {
     font-size: 3rem;
