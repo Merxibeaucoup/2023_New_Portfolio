@@ -14,6 +14,10 @@ import phonebook from "./images/project/desktop/phonebook.jpg";
 import phonebook1 from "./images/project/desktop/pd1.jpg";
 import phonebook2 from "./images/project/desktop/pb2.jpg";
 
+import bank1 from "./images/project/desktop/bank1.jpg";
+import bank2 from "./images/project/desktop/bank2.jpg";
+import bank3 from "./images/project/desktop/bank3.jpg";
+
 export const dataProjects = [
   {
     id: 1,
@@ -114,6 +118,39 @@ export const dataProjects = [
     siteUrl:
       "https://github.com/Merxibeaucoup/CONTACT_EMAIL_QUARTZ_SCHEDULER-FRONTEND",
     gitHubUrl: "https://github.com/Merxibeaucoup/contact-email-task-scheduler",
+    languages: [
+      "html5",
+      "css",
+      "JavaScript",
+      "react js",
+      "context api",
+      "Java 8+",
+      "spring boot",
+      "JWT",
+      "spring security",
+    ],
+    tools: ["sass"],
+  },
+  {
+    id: 5,
+    images: {
+      img1: bank1,
+      img2: bank1,
+      img3: bank1,
+      img4: bank1,
+      img5: bank2,
+      img6: bank3,
+      img7: bank2,
+      img8: bank3,
+    },
+    title: "Online Banking System ",
+    goals: ["multi-page", "Flex box", "Css grid", "full-stack"],
+    descriptionShort:
+      "This APP mimics the ins and outs of an online banking system. User can register, login , logout and open a fundsy-account. -> using spring security and JWT for auth. User can deposit funds , withdraw funds , view balance , and make transfers to other accounts. ",
+    descriptionLong:
+      "This project was an excellent opportunity to learn new technologies and  practice my layout skills. There was lots of tricky decisions to make and plenty of learning opportunities!",
+    siteUrl: "https://github.com/Merxibeaucoup/SBANKSY_FRONTEND-react",
+    gitHubUrl: "https://github.com/Merxibeaucoup/funds-API",
     languages: [
       "html5",
       "css",
