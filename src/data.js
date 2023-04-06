@@ -10,6 +10,10 @@ import wb1 from "./images/project/desktop/wb1.jpg";
 import wb2 from "./images/project/desktop/wb2.jpg";
 import wb3 from "./images/project/desktop/wb3.jpg";
 
+import phonebook from "./images/project/desktop/phonebook.jpg";
+import phonebook1 from "./images/project/desktop/pd1.jpg";
+import phonebook2 from "./images/project/desktop/pb2.jpg";
+
 export const dataProjects = [
   {
     id: 1,
@@ -86,6 +90,40 @@ export const dataProjects = [
       "node js",
       "express",
       "Stripe",
+    ],
+    tools: ["sass"],
+  },
+  {
+    id: 4,
+    images: {
+      img1: phonebook,
+      img2: phonebook,
+      img3: phonebook1,
+      img4: phonebook2,
+      img5: phonebook1,
+      img6: phonebook,
+      img7: phonebook,
+      img8: phonebook2,
+    },
+    title: "Email Sender Quartz Scheduler App",
+    goals: ["multi-page", "Flex box", "Css grid", "full-stack"],
+    descriptionShort:
+      "This is a project i built personally for myself. This project just seems like a simple CRUD contact app but under the Hood, it has a quartz scheduler which filters the contacts ,gets the contact with a birthday on that day then sends them a personalized birthday email. ",
+    descriptionLong:
+      "This project was an excellent opportunity to learn new technologies and  practice my layout skills. There was lots of tricky decisions to make and plenty of learning opportunities!",
+    siteUrl:
+      "https://github.com/Merxibeaucoup/CONTACT_EMAIL_QUARTZ_SCHEDULER-FRONTEND",
+    gitHubUrl: "https://github.com/Merxibeaucoup/contact-email-task-scheduler",
+    languages: [
+      "html5",
+      "css",
+      "JavaScript",
+      "react js",
+      "context api",
+      "Java 8+",
+      "spring boot",
+      "JWT",
+      "spring security",
     ],
     tools: ["sass"],
   },
